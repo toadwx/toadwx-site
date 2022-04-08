@@ -85,6 +85,10 @@ p {
   margin-bottom: 1rem;
   font-size: 1rem;
 }
+
+.slider {
+	width: 40%;
+}
 }
 
 @media (min-width: 1201px) {
@@ -172,5 +176,9 @@ p {
   list-style-type: none;
   margin-bottom: 1rem;
   font-size: 1.1rem;
+}
+
+.slider {
+	width: 40%;
 }
 }
