@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+.active {
+  !background-color: #04AA6D;
+  background-color: #00703c;
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.brand {
+  background-color: #333;
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+body {
+  font-family: Arial;
+  background-color: #F9F9F9;
+  margin: 0px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+ height: 80%;
+ width: 80%;
+ padding-top: 0.25rem;
+ padding-left: 0.25rem;
+}
+
+.main {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.map {
+  height: 75%;
+  width: 75%;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item:hover {
+  background-color: #111;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.plot {
+    display: none;
+}
+.obs {
+  height: 50%;
+  width: 50%;
+}
+
+.region {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+}
+
+@media (min-width: 1201px) {
+.active {
+  !background-color: #04AA6D;
+  background-color: #00703c;
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.brand {
+  background-color: #333;
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+body {
+  font-family: Arial;
+  background-color: #F9F9F9;
+  margin: 0px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+ height: 80%;
+ width: 80%;
+ padding-top: 0.25rem;
+}
+
+.main {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.map {
+  height: 50%;
+  width: 50%;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item:hover {
+  background-color: #111;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.plot {
+    display: none;
+}
+.obs {
+  height: 50%;
+  width: 50%;
+}
+
+.region {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+}
