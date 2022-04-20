@@ -39,20 +39,32 @@
 
 <body>
 	
-	<!-- Create a navigation bar to keep on each page of the website -->
-	<div class="fixed-top">
-		<ul class="navbar">
-			<li class="nav-item"><a href="index.php" class="brand"><img src="images/logos/toadwx_logo.png" class="logo"></a></li>
-			<li class="nav-item"><a href="index.php" class="nav-link"><b>Home</b></a></li>
-			<li class="nav-item"><a href="sfcobs.php" class="nav-link active"><b>Surface Obs</b></a></li>
-			<li class="nav-item"><a href="models.php" class="nav-link"><b>Models</b></a></li>
-			<li class="nav-item"><a href="about.php" class="nav-link"><b>About</b></a></li>
-		</ul>
+	<!-- Create a responsive navigation bar -->
+	<nav class="navbar">
+	
+	<!-- Logo -->
+	<div class="logo"><a href="index.php"><img src="images/logos/toadwx_logo.png" class="logo-img"></a></div>
+	
+	<ul class="nav-links">	
+	<!-- Using Checkbox Hack -->
+	<input type="checkbox" id="checkbox_toggle" />
+	<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+	
+	<!-- Navigation Menus -->
+
+	<div class="menu">
+	<li><a href="index.php"><b>Home</b></a></li>
+	<li><a href="sfcobs.php" class="active"><b>Surface Obs</b></a></li>
+	<li><a href="models.php"><b>Models</b></a></li>
+	<li><a href="about.php"><b>About</b></a></li>
+	
 	</div>
+	</ul>
+	</nav>
 
 	<div class="main">
 		<h1>Surface Observations</h1> 
-		<p>Choose your region of interest below.</p>
+		<p>Choose your region of interest below.</p><br>
 		
 		<select id="regions" class="region">
 		    <option value="CONUS">CONUS</option>
@@ -66,6 +78,8 @@
     		<option value="AK">Alaska</option>
     		<option value="HI">Hawaii</option>
 		</select>
+		
+		<br>
 		
 		<div id="showCONUS" class="plotCONUS">
 		<!-- Use PHP to force the updated image, bypassing the browser's cache -->
