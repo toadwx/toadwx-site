@@ -1,0 +1,138 @@
+.main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1.7em;
+  letter-spacing: 1.5px;
+  color: #005035;
+  text-decoration: none;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+  letter-spacing: 1.2px;
+  color: #005035;
+  text-decoration: none;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: 1.2px;
+  color: #005035;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.list {
+  display: flex;
+  flex: wrap;
+}
+
+.img-list a {
+  text-decoration: none;
+}
+
+.li-sub p {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 0.92em;
+  color: #000000;
+  letter-spacing: 0.7px;
+}
+
+.list li {
+  display: block;
+  float: none;
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 1em;
+}
+.inner {
+  display: flex;
+  overflow: hidden;
+}
+.li-img {
+  display: block;
+  float: none;
+  vertical-align: middle;
+  width: 30%;
+  padding-right: 1em;
+  align-self: center;
+}
+.li-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.li-text {
+  display: block;
+  float: none;
+  vertical-align: middle;
+  width: 70%;
+}
+.li-head {
+  margin: 10px 0 0 0;
+}
+.li-sub {
+  margin: 0 20px 0 0;
+}
+
+@media all and (min-width: 45em) {
+  .list li {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 75em) {
+  .list li {
+    width: 33.33333%;
+  }
+}
+
+/* for flexbox */
+@supports(display: flex) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .li-img,
+  .li-text,
+  .list li {
+    display: block;
+    float: none;
+  }
+
+  .li-img {
+    align-self: center; /* to match the middle alignment of the original */
+  }
+  
+  .inner {
+    display: flex;
+  }
+}
+
+/* for grid */
+@supports(display: grid) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+  
+  .list li {
+    width: auto; /* this overrides the media queries */
+  }
+}

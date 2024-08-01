@@ -1,0 +1,87 @@
+.page-footer {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-image {
+    width: inherit;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.footer-row {
+    position: relative;
+    display: flex;
+    width: inherit;
+    background-color: #222;
+    justify-content: space-around;
+    height: 70px;
+    flex-direction: row;
+    align-content: center;
+}
+
+#footer-toggle {
+    float: left;
+    border: none;
+    border-style: none;
+    text-decoration: none;
+    background-color: #222;
+    color: #A69667;
+    font-size: 1.7em;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    height: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+#footer-toggle h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #A69667;
+    font-size: 1.17em;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.footer-logo {
+    position: relative;
+    height: 50px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col {
+    width: 33.3333%;
+    float: left;
+}
+
+.col h3 {
+    color: #A69667;
+    font-size: 2em;
+    margin: 0;
+    text-align: left;
+}
+
+.col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.col a, .col p, .col em {
+    color: #fff;
+    text-decoration: none;
+}
