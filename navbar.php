@@ -5,7 +5,7 @@
         </a>
         <div id="title-group">
             <a class="brand">ToadWx</a><br>
-            <a href="" class="subbrand">Just Another Weather Site...For Now!</a>
+            <a href="" class="subbrand">Simple Charlotte-Area Weather Data</a>
         </div>
     </div>
     <div id="navbar-container">
