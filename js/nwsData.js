@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 function updateFcst() {
-  loadJSON("https://forecast.weather.gov/MapClick.php?lon=-80.73204&lat=35.30629&FcstType=json", parseFcst,'jsonp');
+  loadJSON("https://forecast.weather.gov/MapClick.php?lon=-80.8257293701172&lat=35.22362327403674&FcstType=json", parseFcst,'jsonp');
 }
 
 // loadJSON method to open the JSON file.
