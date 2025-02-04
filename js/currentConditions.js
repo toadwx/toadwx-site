@@ -30,10 +30,10 @@ function loadGraphs() {
         var endDate = new Date();
     }
 
-    var stationGraph = new IemStationChart("tempChartCont", "JQF", "NC_ASOS", endDate, timeScale, "temp");
-    var stationGraph2 = new IemStationChart("prcpChartCont", "JQF", "NC_ASOS", endDate, timeScale, "prcp");
-    var stationGraph3 = new IemStationChart("windChartCont", "JQF", "NC_ASOS", endDate, timeScale, "wind");
-    var stationGraph4 = new IemStationTable("tableChart", "JQF", "NC_ASOS", endDate, timeScale);
+    var stationGraph = new IemStationChart("tempChartCont", "CLT", "NC_ASOS", endDate, timeScale, "temp");
+    var stationGraph2 = new IemStationChart("prcpChartCont", "CLT", "NC_ASOS", endDate, timeScale, "prcp");
+    var stationGraph3 = new IemStationChart("windChartCont", "CLT", "NC_ASOS", endDate, timeScale, "wind");
+    var stationGraph4 = new IemStationTable("tableChart", "CLT", "NC_ASOS", endDate, timeScale);
 }
 
 function dateToString(d) {

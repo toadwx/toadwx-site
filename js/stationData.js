@@ -8,7 +8,7 @@ $(document).ready(function() {
 });
 
 function updateStn() {
-  loadJSON("https://mesonet.agron.iastate.edu/json/current.py?network=NC_ASOS&station=JQF", parseStn,'jsonp');
+  loadJSON("https://mesonet.agron.iastate.edu/json/current.py?network=NC_ASOS&station=CLT", parseStn,'jsonp');
 }
 
 function parseStn(data){
