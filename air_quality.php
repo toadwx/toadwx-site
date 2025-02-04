@@ -19,8 +19,6 @@
             </div>
         </div>
         <br/>
-    
-        <?php include("footer.php");?>
         
         <script type="text/javascript" src="js/purpleAir.js"></script>
     </body>

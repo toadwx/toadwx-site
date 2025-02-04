@@ -40,8 +40,6 @@
             <table id="tableChart" class="data-table"></table>
         </div>
         </div>
-    
-        <?php include("footer.php");?>
         
         <script type="text/javascript" src="js/currentConditions.js"></script>
     </body>
